@@ -1,0 +1,10 @@
+URL: https://github.com/edenboh/Mandatory12/blob/main/venv/DailyChallenge.py
+suggestions for improvement:
+- Consider adding comments to explain each step for better readability, especially for those unfamiliar with image processing.
+- The image path is hardcoded, which limits reusability. Consider making it a parameter or reading it from a configuration file.
+Brief justification:
+- correctness: The code accurately loads, rotates, flips, and zooms in on an image as requested by the problem description in the chapter content. It correctly utilizes the specified libraries (PIL, matplotlib, scipy).
+- readability: The code is mostly readable with clear variable names and structure. However, the lack of comments makes it slightly harder to understand the purpose of each transformation at a glance.
+- performance: The code is reasonably performant for the given task. Converting the image to a NumPy array before rotation and back to a PIL image is efficient. Using `reshape=False` in the rotate function is also a good practice.
+- security: There are no apparent security concerns. The code operates on local files and does not involve external network requests or user input.
+
