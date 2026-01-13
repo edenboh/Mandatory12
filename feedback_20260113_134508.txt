@@ -1,0 +1,11 @@
+URL: https://github.com/edenboh/Mandatory12/blob/main/MandatoryExercices.ipynb
+suggestions for improvement:
+- For Exercise 3 & 4: Consider adding explicit error handling (e.g., try-except blocks) when reading files to gracefully handle potential issues like file not found or incorrect format.
+- Add comments to explain the purpose of each step, especially when transforming the data.
+- Use more descriptive variable names for better readability.
+Brief justification:
+- correctness: The code accurately addresses all exercises. Exercise 1 correctly identifies data types. Exercise 2 proposes reasonable methods for converting unstructured data to structured formats. Exercises 3, 4, 5, and 6 correctly import and display the requested datasets, and export dataframes as required. All instructions in the chapter content were followed.
+- readability: The code is generally readable, but could benefit from more comments and more descriptive variable names.
+- performance: The code performs efficiently for the given tasks. Importing and displaying small datasets doesn't pose any significant performance concerns.
+- security: The code does not involve any security risks, as it only reads and displays data from local files and a specified URL.
+
